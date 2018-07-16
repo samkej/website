@@ -1,0 +1,99 @@
+/*p{ line-height: 2em;*/
+
+}
+
+
+h1{
+        color:black;
+	font-weight: normal;
+	line-height: 4em;
+	margin: 0 0 .2em 0;
+        font-size: 1.5em;
+        font-style: oblique;
+        background-image: : black;
+}
+h2{
+        color: indigo;
+	font-weight: normal;
+	line-height: 2em;
+	margin: 0 0 .5em 0;
+        font-size: 3em;
+}
+p{
+  font-size:11pt;
+  color:Black;
+  font-style: normal;
+}
+
+body{
+    font-family: Arial black; font-size: 80%; line-height: 1.2em; width: 100%; margin-left: 80px; background: #eee;
+}
+#page{ margin: 30px; }
+
+#logo{
+	width: 100%;
+	margin-top: 5px;
+	font-family: georgia;
+	display: inline-block;
+}
+#nav{
+	width: 60%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+
+#nav ul li{
+			display: inline-block;
+			height: 80px;
+          }
+
+			#nav ul li a{
+				padding: 20px;
+				background: 'cj5.jpj';
+				color: white;
+			}
+			#nav ul li a:hover{
+				background-color: #ffb424;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#nav ul li a:active{ background-color:#00ffdd; }
+
+#content{
+	margin: 30px 0;
+	background: mad.jpg;
+	padding: 20px;disp
+	clear: both;
+}
+#footer{
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
+
+}
+	#footer p{
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 80%;
+		color: indigo;
+    font-style:italic;
+     bottom: 80px;
+
+
+
+	}
+
+ul li a{ box-shadow: 0px 1px 1px #999; }
+
+.jumbotron {
+  min-height: 800px;
+  background-image: url('cj5.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.ImAgE{
+  min-height: 800px;
+  background-image: url('cj4.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
